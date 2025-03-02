@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+/* Title styling */
+h1 {
+    color: #333;
+}
+
+/* Center the list container */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Modify list items for tasks */
+li {
+    background: white;
+    padding: 10px;
+    margin: 5px auto;       /* Center each task item horizontally */
+    display: flex;          /* Use flex for proper alignment */
+    align-items: center;    /* Vertically center content */
+    border-radius: 5px;
+    width: 200px;           /* Fixed minimal width; adjust as needed */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Styling for buttons */
+.button, button {
+    display: inline-block;
+    background: #007BFF;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover, .button:hover {
+    background: #0056b3;
+}
